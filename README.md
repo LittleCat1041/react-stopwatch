@@ -1,12 +1,36 @@
-# React + Vite
+# React Stopwatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-precision stopwatch application built with **React** and **Vite**. This project demonstrates efficient state management and timer logic implementation using React Hooks.
 
-Currently, two official plugins are available:
+Key Features
+ - **Accurate Timing:** Measures time in Hours, Minutes, Seconds, and Milliseconds.
+ - **Controls:** Start, Stop, and Reset functionality.
+ - **Performance Optimized:** Uses `useRef` to manage timer intervals without triggering unnecessary re-renders.
+ - **Modern UI:** Clean, centered layout with responsive CSS styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technical Highlights (Code Logic)
+ - **`useRef` vs `useState`:** I used `useRef` to store the `intervalId` and `startTime`. Unlike `useState`, updating a ref **does not trigger a re-render**, which is crucial for performance when handling high-frequency updates like a timer.
+ - **`useEffect` Cleanup:** Implements a cleanup function to `clearInterval` when the component unmounts, preventing **memory leaks** and ensuring the app runs smoothly.
+ - **Time Formatting:** Custom algorithm to mathematically convert raw milliseconds into a human-readable `HH:MM:SS:MS` format.
 
-## Expanding the ESLint configuration
+Tech Stack
+ React (Vite), CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to Run
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/LittleCat1041/Stopwatch]
+    ```
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+3.  **Start the app**
+    ```bash
+    npm run dev
+    ```
+
+Screenshots
+
+<img width="941" height="672" alt="image" src="https://github.com/user-attachments/assets/6c496d60-aa7c-4d32-b888-30f0c1527f19" />
+
