@@ -14,7 +14,7 @@ Technical Highlights (Code Logic)
  - **Time Formatting:** Custom algorithm to mathematically convert raw milliseconds into a human-readable `HH:MM:SS:MS` format.
 
 Tech Stack
- React (Vite), CSS
+ - React (Vite), CSS
 
 How to Run
 1.  **Clone the repository**
