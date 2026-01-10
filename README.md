@@ -19,8 +19,8 @@ Tech Stack
 How to Run
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/LittleCat1041/stopwatch
-    cd stopwatch
+    git clone https://github.com/LittleCat1041/react-stopwatch
+    cd react-stopwatch
     ```
 2.  **Install dependencies**
     ```bash
