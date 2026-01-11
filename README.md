@@ -24,6 +24,8 @@ A high-precision stopwatch application built with **React** and **Vite**. This p
 2.  **Install dependencies**
     ```bash
     cd react-stopwatch
+    ```
+    ```bash
     npm install
     ```
 3.  **Start the app**
