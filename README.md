@@ -17,21 +17,21 @@ A high-precision stopwatch application built with **React** and **Vite**. This p
  - React (Vite), CSS
 
 ## How to Run
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/LittleCat1041/react-stopwatch.git
-    ```
-2.  **Install dependencies**
-    ```bash
-    cd react-stopwatch
-    ```
-    ```bash
-    npm install
-    ```
-3.  **Start the app**
-    ```bash
-    npm run dev
-    ```
+### 1.  **Clone the Repository**
+```bash
+git clone https://github.com/LittleCat1041/react-stopwatch.git
+```
+### 2.  **Install Dependencies**
+```bash
+cd react-stopwatch
+```
+```bash
+npm install
+```
+### 3.  **Start the Application**
+```bash
+npm run dev
+```
 
 ## Screenshots
 
