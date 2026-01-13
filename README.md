@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-## Screenshots
+## Screenshot
 
 <img width="941" height="672" alt="image" src="https://github.com/user-attachments/assets/6c496d60-aa7c-4d32-b888-30f0c1527f19" />
 
